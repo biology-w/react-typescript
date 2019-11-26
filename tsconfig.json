@@ -12,6 +12,6 @@
         "moduleResolution": "node", // 决定如何处理模块 Classic: TS2307: Cannot find module 'csstype' TS2307: Cannot find module 'source-map'.
         "allowSyntheticDefaultImports": true // 允许从没有设置默认导出的模块中默认导入。这并不影响代码的输出，仅为了类型检查。
     },
-    "include": ["./src/**/*"],
+    "include": ["./src/**/*", "@types/css.modules.d.ts"],
     "exclude": ["node_modules", "dist"]
 }

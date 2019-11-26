@@ -1,5 +1,6 @@
 import React from "react";
-const styles = require("./index.css");
+
+import styles from "./index.css"; // or  const styles = require("./index.css");
 
 // import Koala from "../images/Koala.jpg";
 // import One from "../images/1.jpg";
