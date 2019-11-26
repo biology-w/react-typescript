@@ -1,0 +1,12 @@
+body {
+  background-color: #ffffff;
+}
+
+#root {
+  color: white;
+  background-color: black;
+}
+
+.test {
+  color: red;
+}

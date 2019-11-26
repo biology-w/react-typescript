@@ -1,0 +1,17 @@
+// 查看： https://www.tslang.cn/docs/handbook/compiler-options.html
+{
+    "compilerOptions": {
+        "outDir": "./dist/", // 重定向输出目录
+        "sourceMap": true, // 生成相应的 .map文件
+        "noImplicitAny": true, // 在表达式和声明上有隐含的 any类型时报错
+        "module": "esnext", // 指定生成哪个模块系统代码
+        "target": "es5", // 指定ECMAScript目标版本 "ES3"（默认）
+        "jsx": "react", // 在 .tsx文件里支持JSX： "React"或 "Preserve"。查看 JSX
+        "allowJs": true, // 允许编译javascript文件
+        // "esModuleInterop": true
+        "moduleResolution": "node", // 决定如何处理模块 Classic: TS2307: Cannot find module 'csstype' TS2307: Cannot find module 'source-map'.
+        "allowSyntheticDefaultImports": true // 允许从没有设置默认导出的模块中默认导入。这并不影响代码的输出，仅为了类型检查。
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "dist"]
+}
